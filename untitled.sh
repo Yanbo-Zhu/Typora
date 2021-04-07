@@ -2,9 +2,9 @@
 #!/bin/bash
 
 printf '%s\n' "Git pull, add, commit and push"
-read -p "Do you want to update your Typora Dokument [y/n]: " tri
+read -p "Do you want to update your Typora Dokument [y/n]: " trigger
 
-#echo "Input is " $tri
+#echo "Input is " $trigger
 
 function Git_update(){
 		echo "Git_update starts now"
@@ -17,7 +17,7 @@ function Git_update(){
 		echo -e "Git_update finished now\n"
 }
 
-if [ $tri = y ]
+if [ $trigger = y ]
 	then
 		echo "the process start now"
 		#currentDir=$PWD
@@ -29,7 +29,7 @@ if [ $tri = y ]
 		
 		echo "The process finished"
 		
-elif [ $tri = n ]
+elif [ $trigger = n ]
 	then
 		echo "Input is n, this process breaks down"
 
