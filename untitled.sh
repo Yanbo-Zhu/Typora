@@ -14,7 +14,7 @@ function Git_update(){
 		git commit -m "Typora update"
 		git push origin master
 		git gc
-		echo -e "Git_update finished now\n"
+		echo "Git_update finished now\n"
 }
 
 if [ $trigger = y ]
