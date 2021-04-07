@@ -23,7 +23,7 @@ if [ $trigger = y ]
 		#currentDir=$PWD
 		#cd e: 
 		#cd E:/Typora/Typora
-		echo -e "The current Working directory is $PWD\n" 
+		echo  "The current Working directory is $PWD\n" 
 		
 		Git_update
 		
