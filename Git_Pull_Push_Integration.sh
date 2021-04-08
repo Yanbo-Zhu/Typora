@@ -21,9 +21,11 @@ if [ $trigger = y ]
 	then
 		echo "The process start now"
 		echo "The current Working directory is $PWD"
+		printf '\n'
 		
 		Git_update
 		
+		printf '\n'
 		echo "The process finished"
 		
 elif [ $trigger = n ]
