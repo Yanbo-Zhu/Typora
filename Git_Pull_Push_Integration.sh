@@ -12,6 +12,7 @@ function Git_update(){
 		git pull --rebase origin master
 		git add -A 
 		git commit -m "Typora update"
+		git pull --rebase origin master
 		git push origin master
 		git gc
 		echo "Git_update finished now"
