@@ -19,7 +19,7 @@ function Git_update(){
 
 if [ $tri = y ]
 	then
-		echo "the process start now"
+		echo "The process start now"
 		#currentDir=$PWD
 		#cd e: 
 		#cd E:/Typora/Typora
